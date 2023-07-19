@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Thomas Figard</title>
+    <meta name="description" content="A simple HTML5 Template for new projects.">
+    <meta name="author" content="Thomas Figard">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="invertedcursor"></div>
+    <header>
+        <h1 class="logo">Thomas Figard</h1>
+        <nav class="navigation">
+          <a href="#competences">Compétences</a>
+          <a href="#projets">Projets</a>
+          <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="a-propos">
+        <div class="propos">
+            <img src="images/ezgif-5-a3e48c9c9f.webp" alt="Portrait Thomas Figard">
+            <p>Bonjour et bienvenue sur mon portfolio ! Je suis Thomas Figard, un développeur passionné ayant effectué une 
+            reconversion dans le domaine de l'intégration web. 
+            J'ai suivi une formation approfondie qui m'a permis d'acquérir de solides compétences en HTML, CSS et JavaScript.</p>
+        </div>
+        </section>
+        
+        <section id="competences">
+            <h2 class="title-comp">Compétences</h2>
+            <div class="row">
+                <div class="card-comp">
+                    <img src="images/icons8-web-development-100.png" alt="Icone Développement Web" class="icon-placement">
+                    <div class="text-comp">
+                        <h3>Développement Web</h3>
+                        <p>Développement et inrégration de site web, compétences front-end</p>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>Express</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="card-comp">
+                    <img src="images/icons8-design-100.png" alt="Icone Développement Web" class="icon-placement">
+                    <div class="text-comp">
+                        <h3>Design & Créativité</h3>
+                        <p>Création de maquette pour site web, création & retouche d'image</p>
+                        <ul>
+                            <li>Photoshop</li>
+                            <li>Illustrator</li>
+                            <li>Figma</li>
+                            <li>Lightroom</li>
+                            <li>Suite Adobe</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section id="projets">
+            <h2>Mes projets</h2>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Une idée ? Un projet ? Contactez-moi !</p>
+            <form action="" method="POST">
+                <div class="form-mep">
+                  <label for="nom"></label>
+                  <input type="text" id="nom" name="nom" placeholder="Nom" required>
+                </div>
+                <div class="form-mep">
+                  <label for="email"></label>
+                  <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </div>
+                <div class="form-mep">
+                  <label for="message"></label>
+                  <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                </div>
+                <button type="submit" class="submit-form">Envoyer</button>
+              </form>
+        </section>
+    </main>
+</body>
+</html>
