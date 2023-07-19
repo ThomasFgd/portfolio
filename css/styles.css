@@ -157,6 +157,17 @@ li:hover {
 #projets {
     background-color: #ffffff;
     padding-bottom: 20px;
+    width : 1200px;
+    align-items: center;
+    margin: auto;
+}
+
+.row-proj {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px 80px;
 }
 
 .proj-link {
