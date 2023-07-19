@@ -150,15 +150,52 @@ li:hover {
 .icon-placement {
     width: 80px;
     height: 80px;
-    /* position : absolute;
-    top:-50px;
-    left: 150px;
-    background-color: #000000; */
 }
+
+/* CSS de la section projet */
 
 #projets {
     background-color: #ffffff;
+    padding-bottom: 20px;
 }
+
+.proj-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+.proj-link:hover .card-proj {
+    transform: scale(1.05);
+}
+
+.card-proj {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px; 
+    border: #000000 3px solid;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+
+.card-proj p{
+    font-size: 15px ;
+    text-align: center;
+}
+
+.card-proj li {
+    list-style-type : none;
+    font-size: 12px;
+    padding: 5px 15px;
+    text-align: center;
+    border: #000000 2px solid;
+    border-radius: 15px;
+}
+
+/* CSS de la section contact */
 
 #contact {
     display: flex;

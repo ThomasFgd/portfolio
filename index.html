@@ -72,12 +72,28 @@
         
         <section id="projets">
             <h2>Mes projets</h2>
+            <div class="row">
+                <a href="https://thomasfgd.github.io/projet5/" class="proj-link">
+                    <div class="card-proj">
+                        <div class="text-comp">
+                            <h3>Site de Nina Carducci</h3>
+                            <p>Débug & optimisation du site web d'une Photographe</p>
+                            <ul>
+                                <li>Débugger</li>
+                                <li>Optimisation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+
         </section>
 
         <section id="contact">
             <h2>Contact</h2>
             <p>Une idée ? Un projet ? Contactez-moi !</p>
-            <form action="" method="POST">
+            <form action="https://formspree.io/f/xgejvaqz" method="POST">
                 <div class="form-mep">
                   <label for="nom"></label>
                   <input type="text" id="nom" name="nom" placeholder="Nom" required>
@@ -90,8 +106,9 @@
                   <label for="message"></label>
                   <textarea id="message" name="message" placeholder="Votre message" required></textarea>
                 </div>
-                <button type="submit" class="submit-form">Envoyer</button>
-              </form>
+                <button id="btn" type="submit" class="submit-form">Envoyer</button>
+            </form>
+            <p> © Réalisé par Thomas Figard - 2023</p>
         </section>
     </main>
 </body>
