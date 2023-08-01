@@ -56,6 +56,8 @@ header a {
 
 a:hover {
     cursor: none;
+    transform: scale(1.10);
+    transition: transform 0.2s ease;
 }
 
 h2 {
